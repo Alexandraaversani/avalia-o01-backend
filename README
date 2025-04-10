@@ -1,0 +1,62 @@
+    ### Atividade Avaliativa 01
+
+    ### Clone o repositório
+
+    ### Fazer os passo a passo de acordo com o repositório node-back-banco
+
+    ### Criar o arquivo de configuração do .env
+
+    ```js
+        DATABASE_URL="file:./dev.db"
+
+
+    ### Criar uma rota para inserir um novo jogo
+
+    ```js
+        router.post("/", jogoController.create);
+    ```
+
+    ### Criar uma rota para listar todos os jogos
+
+    ```js
+        router.get("/", jogoController.getAll);
+    ```
+
+    ### Criar uma rota para buscar um jogo por id
+
+    ```js
+        router.get("/:id", jogoController.getById);
+    ```
+
+    ### Criar uma rota para atualizar um jogo
+
+    ```js
+        router.put("/:id", jogoController.update);
+    ```
+
+    ### Criar uma rota para deletar um jogo
+
+    ```js
+        router.delete("/:id", jogoController.delete);
+    ```
+
+    ### Criar uma rota para listar todos os jogos
+
+    ```js
+        router.get("/", jogoController.getAll);
+    ```
+
+    ### Criar uma rota para buscar um jogo por id
+
+    ```js
+        router.get("/:id", jogoController.getById);
+    ```
+
+## Tecnologias utilizadas       
+    ### Node.js
+    ### Express
+    ### Prisma
+    ### SQLite
+
+   
+
